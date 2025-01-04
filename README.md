@@ -3,7 +3,7 @@
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/pchihieuu/url-shortner.svg 'Open Pull Requests')](https://github.com/pchihieuu/url-shortner/pulls)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/pchihieuu/url-shortner.svg 'Commit activity')](https://github.com/pchihieuu/url-shortner/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/pchihieuu/url-shortner.svg 'Github contributors')](https://github.com/pchihieuu/url-shortner/graphs/contributors)
-![](./docs/images/main.png)
+![](./docs/images/main.png){:style="width: 100%;"}
 
 
 # Shortner-Application[![Demo](https://img.shields.io/badge/Demo-2ea44f?style=for-the-badge)](http://vnlaw.japaneast.cloudapp.azure.com) [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge)](https://pchihieuugmai-zsv8578.getoutline.com/doc/shortner-url-Pa3VNIVx63)
@@ -59,7 +59,7 @@ The system is designed using a monolithic architecture, with the following techn
 <img loading="lazy" src="./docs/images/url_shorter.drawio1.svg" alt="Architecture" width="100%" height=600>
 
 ## Repository Structure
-
+```plaintext
 /url-shortener
 ├── api/
 │   ├── database/
@@ -76,10 +76,8 @@ The system is designed using a monolithic architecture, with the following techn
 ├── .env                 # Environment variables
 ├── docker-compose.yml   # Docker Compose configuration
 └── main.go              # Application entry point
-
+```
 ## Installation Guide
-
-Tất cả các images build từ services backend bạn có thể tìm thấy tại [Docker Hub](https://hub.docker.com/repositories/tghuy2002?search=vnlaw).
 
 ### Requirements 📋
 
