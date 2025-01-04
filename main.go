@@ -17,10 +17,10 @@ func main() {
     }
 	
 	router := gin.Default()
-	setupRouters(router)
+	setupRouters(router) 
 	port := os.Getenv("APP_PORT")
 	if port == "" {
-		port = "8081"
+		port = "8080"
 	}
 
 	log.Fatal(router.Run(":" + port))
@@ -31,4 +31,5 @@ func setupRouters(router *gin.Engine) {
 	router.GET("/api/v1/:shortID", routes.GetByShortID)
 	router.DELETE("/api/v1/:shortID", routes.DeleteURL)
 	router.PUT("/api/v1/:shortID", routes.EditURL)
+	router.POST("/api/v1/addTag", routes.AddTag)
 }
