@@ -4,7 +4,7 @@
 [![Commit activity](https://img.shields.io/github/commit-activity/m/pchihieuu/url-shortner.svg 'Commit activity')](https://github.com/pchihieuu/url-shortner/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/pchihieuu/url-shortner.svg 'Github contributors')](https://github.com/pchihieuu/url-shortner/graphs/contributors)
 <img loading="lazy" src="./docs/images/37576.jpg" alt="Main" width="100%">
-
+<img loading="lazy" src="./docs/images/main.jpeg" alt="Main" width="100%">
 
 # Shortner-Application[![Demo](https://img.shields.io/badge/Demo-2ea44f?style=for-the-badge)](http://vnlaw.japaneast.cloudapp.azure.com) [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge)](https://pchihieuugmai-zsv8578.getoutline.com/doc/shortner-url-Pa3VNIVx63)
 
@@ -90,9 +90,7 @@ To install and run the project, you need to install the following tools. Please 
 
 ### 🔨 Setup
 
-1. Clone the repository:
-
-First, clone the repository to your local machine by running the following command in your terminal:
+1. Clone the repository: First, clone the repository to your local machine by running the following command in your terminal
 
 ```bash
 git clone https://github.com/pchihieuu/url-shortner.git
@@ -100,9 +98,7 @@ git clone https://github.com/pchihieuu/url-shortner.git
 cd url-shortner
 ```
 
-2. Install Dependencies:
-
-Inside the project folder, install the required Go modules by running:
+2. Install Dependencies: Inside the project folder, install the required Go modules by running
 
 ```bash
 go mod tidy
@@ -120,9 +116,7 @@ docker run --name redis-container -p 6379:6379 -d redis
 
 > **Note:** This will run Redis on the default port 6379.
 
-4. Configure Environment Variables: 
-
-In the project directory, you may need to set environment variables for configurations. For example, create a .env file and define any necessary values, such as Redis host and port:
+4. Configure Environment Variables: In the project directory, you may need to set environment variables for configurations. For example, create a .env file and define any necessary values, such as Redis host and port:
 
 ```bash
 DB_ADDR="YOUR_DB_ADDR"
@@ -133,17 +127,13 @@ API_QUOTA=YOUR_API_QUOTA
 GIN_MODE=YOUR_MODE
 ```
 
-5.  Run the Application
-
-To start the services with a single Docker Compose command, use:
+5.  Run the Application: To start the services with a single Docker Compose command, use:
 
 ```bash
 docker-compose up -d
 ```
 
-6. Access the Application: 
-
-The server will start running on the default port. You can access the URL shortener API by visiting:
+6. Access the Application: The server will start running on the default port. You can access the URL shortener API by visiting:
 
 ```bash
 http://localhost:YOUR_PORT/api/v1
