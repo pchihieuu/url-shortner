@@ -3,7 +3,8 @@
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/pchihieuu/url-shortner.svg 'Open Pull Requests')](https://github.com/pchihieuu/url-shortner/pulls)
 [![Commit activity](https://img.shields.io/github/commit-activity/m/pchihieuu/url-shortner.svg 'Commit activity')](https://github.com/pchihieuu/url-shortner/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/pchihieuu/url-shortner.svg 'Github contributors')](https://github.com/pchihieuu/url-shortner/graphs/contributors)
-<img loading="lazy" src="./docs/images/37576.jpg" alt="Main" width="80%">
+<!-- <img loading="lazy" src="./docs/images/37576.jpg" alt="Main" width="80%"> -->
+![](./docs/images/37576.jpg)
 
 # Shortner-Application[![Demo](https://img.shields.io/badge/Demo-2ea44f?style=for-the-badge)](http://vnlaw.japaneast.cloudapp.azure.com) [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge)](https://pchihieuugmai-zsv8578.getoutline.com/doc/shortner-url-Pa3VNIVx63)
 
