@@ -6,7 +6,7 @@
 <img loading="lazy" src="./docs/images/37576.jpg" alt="Main" width="100%">
 <img loading="lazy" src="./docs/images/main.jpeg" alt="Main" width="100%">
 
-# Shortner-Application[![Demo](https://img.shields.io/badge/Demo-2ea44f?style=for-the-badge)](http://vnlaw.japaneast.cloudapp.azure.com) [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge)](https://pchihieuugmai-zsv8578.getoutline.com/doc/shortner-url-Pa3VNIVx63)
+# Shortner-Application[![Demo](https://img.shields.io/badge/Demo-2ea44f?style=for-the-badge)]() [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge)](https://pchihieuugmai-zsv8578.getoutline.com/doc/shortner-url-Pa3VNIVx63)
 
 <a href="https://github.com/pchihieuu/url-shortner/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">Bug Report ⚠️
 </a>
