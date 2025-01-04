@@ -20,7 +20,7 @@ func main() {
 	setupRouters(router) 
 	port := os.Getenv("APP_PORT")
 	if port == "" {
-		port = "8080"
+		port = "3000"
 	}
 
 	log.Fatal(router.Run(":" + port))
