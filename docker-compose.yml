@@ -1,0 +1,17 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8080"
+    depends_on:
+      - db
+
+  db:
+    build:
+      context: ./db
+    ports:
+      - "6379:6379"
+    volumes:
+      - .data:/data

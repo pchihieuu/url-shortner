@@ -31,7 +31,7 @@ func ShortenURL(c *gin.Context) {
 		_ = r2.Set(database.Ctx, c.ClientIP(), os.Getenv("API_QUOTA"), 30*60*time.Second).Err()
 	} else {
 		val, _ = r2.Get(database.Ctx, c.ClientIP()).Result()
-		valInt, _ := strconv.Atoi((val))
+		valInt, _ := strconv.Atoi(val) 
 
 		if valInt <= 0 {
             limit, _ := r2.TTL(database.Ctx, c.ClientIP()).Result()
