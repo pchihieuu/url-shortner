@@ -1,6 +1,6 @@
 ## CONTRIBUTING - Shortner-Application
 
-There are several ways you can contribute to this project. Below are some things you can do and the process for each. All contributions should adhere to the project's [CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md).
+There are several ways you can contribute to this project. Below are some things you can do and the process for each. All contributions should adhere to the project's [CODE_OF_CONDUCT.md](../../CODE_OF_CONDUCT.md).
 
 ## Code or Document Updates
 
