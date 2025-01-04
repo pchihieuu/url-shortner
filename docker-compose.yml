@@ -1,17 +1,17 @@
+version: '3.8'
 services:
   api:
     build:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "8000:8080"
+      - "3000:3000"  # Expose port 3000 from the container to port 3000 on the host
     depends_on:
       - db
 
   db:
-    build:
-      context: ./db
+    image: redis:latest  # Use a pre-built Redis image instead of building one
     ports:
-      - "6379:6379"
+      - "6379:6379"  # Expose Redis port
     volumes:
-      - .data:/data
+      - ./data:/data  # Mount host's ./data directory to container's /data directory
