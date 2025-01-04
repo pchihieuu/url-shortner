@@ -90,7 +90,7 @@ To install and run the project, you need to install the following tools. Please 
 
 ### 🔨 Setup
 
-1. Clone the repository: First, clone the repository to your local machine by running the following command in your terminal
+1. **Clone the repository**: First, clone the repository to your local machine by running the following command in your terminal
 
 ```bash
 git clone https://github.com/pchihieuu/url-shortner.git
@@ -98,13 +98,13 @@ git clone https://github.com/pchihieuu/url-shortner.git
 cd url-shortner
 ```
 
-2. Install Dependencies: Inside the project folder, install the required Go modules by running
+2. **Install Dependencies**: Inside the project folder, install the required Go modules by running
 
 ```bash
 go mod tidy
 ```
 
-3. Set Up Redis:
+3. **Set Up Redis:**
 
 -   If Redis is not installed, you can either install it locally or run it using Docker.
 -   To install Redis locally, follow the [Redis installation guide](https://redis.io/docs/latest/operate/oss_and_stack/install/install-redis/).
@@ -116,7 +116,7 @@ docker run --name redis-container -p 6379:6379 -d redis
 
 > **Note:** This will run Redis on the default port 6379.
 
-4. Configure Environment Variables: In the project directory, you may need to set environment variables for configurations. For example, create a .env file and define any necessary values, such as Redis host and port:
+4. **Configure Environment Variables**: In the project directory, you may need to set environment variables for configurations. For example, create a .env file and define any necessary values, such as Redis host and port:
 
 ```bash
 DB_ADDR="YOUR_DB_ADDR"
@@ -127,13 +127,13 @@ API_QUOTA=YOUR_API_QUOTA
 GIN_MODE=YOUR_MODE
 ```
 
-5.  Run the Application: To start the services with a single Docker Compose command, use:
+5.  **Run the Application**: To start the services with a single Docker Compose command, use:
 
 ```bash
 docker-compose up -d
 ```
 
-6. Access the Application: The server will start running on the default port. You can access the URL shortener API by visiting:
+6. **Access the Application**: The server will start running on the default port. You can access the URL shortener API by visiting:
 
 ```bash
 http://localhost:YOUR_PORT/api/v1
@@ -146,7 +146,7 @@ http://localhost:YOUR_PORT/api/v1
 
 <a href="https://github.com/pchihieuu/url-shortner/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=RequestFeature:">Request Feature 👩‍💻</a>
 
-If you would like to contribute to the project, please read [CONTRIBUTING.md](.github/CONTRIBUTING.md) more details.
+If you would like to contribute to the project, please read [CONTRIBUTING.md](./docs/rules/CONTRIBUTING.md) more details.
 
 We greatly appreciate any contributions. Feel free to submit a pull request to the project.
 
