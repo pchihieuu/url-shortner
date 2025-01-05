@@ -56,7 +56,7 @@ The system is designed using a monolithic architecture, with the following techn
 -   [Docker](https://www.docker.com/): Containerize services.
 -   [Docker Compose](https://docs.docker.com/compose/): Manage containers.
 
-<img loading="lazy" src="./docs/images/url_shorter.drawio.svg" alt="Architecture" width="100%" height=600>
+<img loading="lazy" src="./docs/images/url_shorter.drawio1.svg" alt="Architecture" width="100%" height=600>
 
 ## Repository Structure
 ```plaintext
