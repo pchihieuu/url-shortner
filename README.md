@@ -1,33 +1,16 @@
-[![Github license](https://img.shields.io/github/license/pchihieuu/url-shortner.svg 'Github license')](https://github.com/pchihieuu/url-shortner/blob/master/LICENSE)
-[![Open issues](https://img.shields.io/github/issues/pchihieuu/url-shortner.svg 'Open issues')](https://github.com/pchihieuu/url-shortner/issues)
-[![Open Pull Requests](https://img.shields.io/github/issues-pr/pchihieuu/url-shortner.svg 'Open Pull Requests')](https://github.com/pchihieuu/url-shortner/pulls)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/pchihieuu/url-shortner.svg 'Commit activity')](https://github.com/pchihieuu/url-shortner/graphs/commit-activity)
-[![GitHub contributors](https://img.shields.io/github/contributors/pchihieuu/url-shortner.svg 'Github contributors')](https://github.com/pchihieuu/url-shortner/graphs/contributors)
-<img loading="lazy" src="./docs/images/37576.jpg" alt="Main" width="100%">
-<img loading="lazy" src="./docs/images/main.jpeg" alt="Main" width="100%">
-
-# Shortner-Application[![Demo](https://img.shields.io/badge/Demo-2ea44f?style=for-the-badge)]() [![Documentation](https://img.shields.io/badge/Documentation-blue?style=for-the-badge)](https://pchihieuugmai-zsv8578.getoutline.com/doc/shortner-url-Pa3VNIVx63)
-
-<a href="https://github.com/pchihieuu/url-shortner/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">Bug Report ⚠️
-</a>
-
-<a href="https://github.com/pchihieuu/url-shortner/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=RequestFeature:">Request Feature 👩‍💻</a>
-
 The Shortened URL project is a system that helps users shorten long URLs into shorter, more manageable links that are easier to share and manage. 
 
 The system provides features for managing and tracking shortened URLs, along with tools to help users optimize and secure their links.
 
-## 🔎 Tables of contents
+## Tables of contents
 
 1. [Introduction](#Introduction)
 2. [Key Features](#Key-Features)
-3. [System Overview](#👩‍💻-System-Overview)
+3. [System Overview](#System-Overview)
 4. [Repository Structure](#Repository-Structure)
 5. [Installation Guide](#Installation-Guide)
-    - [📋 Requirements](#Requirements-📋)
-    - [🔨 Setup](#🔨-set-up)
-6. [🙌 Contributing](#🙌-contributing-to-the-project)
-8. [📝 License](#📝-license)
+    - [Requirements](#Requirements-📋)
+    - [Setup](#Set-up)
 
 ## Introduction
 
@@ -39,14 +22,14 @@ The system provides features for managing and tracking shortened URLs, along wit
 
 The project focuses on the following main features:
 
--   ✂️ URL Shortening: Users can input a long URL and receive a shortened version, making the URL more compact and easy to share on various platforms like social media, email, or messaging apps.
--   ⚙️ Link Management: Users can manage their shortened URLs, view details about them, and perform actions such as deleting or updating the links.
--   🔗 Link Expiry: Each shortened URL can have an expiry date, automatically deactivating the link after the specified time.
--   🛃 Customizable Shortened URLs: Users can customize the alias or name of their shortened URL, making it more recognizable and meaningful.
--   🔑 Rate Limiting: The system includes rate limiting to control the number of requests a user can make, preventing abuse and ensuring fair usage.
--   🔗 Link Tagging: Users can assign tags to their shortened URLs for better organization and easy searchability.
+-   URL Shortening: Users can input a long URL and receive a shortened version, making the URL more compact and easy to share on various platforms like social media, email, or messaging apps.
+-   Link Management: Users can manage their shortened URLs, view details about them, and perform actions such as deleting or updating the links.
+-   Link Expiry: Each shortened URL can have an expiry date, automatically deactivating the link after the specified time.
+-   Customizable Shortened URLs: Users can customize the alias or name of their shortened URL, making it more recognizable and meaningful.
+-   Rate Limiting: The system includes rate limiting to control the number of requests a user can make, preventing abuse and ensuring fair usage.
+-   Link Tagging: Users can assign tags to their shortened URLs for better organization and easy searchability.
 
-## 👩‍💻 System Overview
+## System Overview
 
 The system is designed using a monolithic architecture, with the following technologies:
 
@@ -79,7 +62,7 @@ The system is designed using a monolithic architecture, with the following techn
 ```
 ## Installation Guide
 
-### Requirements 📋
+### Requirements
 
 To install and run the project, you need to install the following tools. Please follow the installation instructions for your appropriate operating system:
 
@@ -88,7 +71,7 @@ To install and run the project, you need to install the following tools. Please 
 -   [Golang v1.22 Installation](https://go.dev/doc/install)
 -   [Git Installation](https://git-scm.com/downloads)
 
-### 🔨 Setup
+### Setup
 
 1. **Clone the repository**: First, clone the repository to your local machine by running the following command in your terminal
 
@@ -138,18 +121,3 @@ docker-compose up -d
 ```bash
 http://localhost:YOUR_PORT/api/v1
 ```
-
-## 🙌 Contributing to the Project
-
-<a href="https://github.com/pchihieuu/url-shortner/issues/new?assignees=&labels=&projects=&template=bug_report.md&title=%F0%9F%90%9B+Bug+Report%3A+">Bug Report ⚠️
-</a>
-
-<a href="https://github.com/pchihieuu/url-shortner/issues/new?assignees=&labels=&projects=&template=feature_request.md&title=RequestFeature:">Request Feature 👩‍💻</a>
-
-If you would like to contribute to the project, please read [CONTRIBUTING.md](./docs/rules/CONTRIBUTING.md) more details.
-
-We greatly appreciate any contributions. Feel free to submit a pull request to the project.
-
-## 📝 License
-
-This project is licensed under the terms of the [GPL V3](LICENSE) license.
